@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vega.OAuth", "vega.OAuth\ve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vega.API", "vega.API\vega.API.csproj", "{FB448B3F-8190-40B4-AA99-D0FFFCA0F956}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vega.AspNetIdentity", "Vega.AspNetIdentity\Vega.AspNetIdentity.csproj", "{1DD8CA60-6789-440F-BD06-412714535021}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FB448B3F-8190-40B4-AA99-D0FFFCA0F956}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB448B3F-8190-40B4-AA99-D0FFFCA0F956}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB448B3F-8190-40B4-AA99-D0FFFCA0F956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD8CA60-6789-440F-BD06-412714535021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD8CA60-6789-440F-BD06-412714535021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD8CA60-6789-440F-BD06-412714535021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD8CA60-6789-440F-BD06-412714535021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
