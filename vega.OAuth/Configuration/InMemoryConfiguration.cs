@@ -64,8 +64,15 @@ namespace vega.OAuth.Configuration
                 {
                     SubjectId = "1",
                     Username = "mail@serii.md",
-                    Password = "password"
+                    Password = "password",
+
+                    Claims = new []
+                    {
+                        new Claim("name", "Serii"),
+                        new Claim("website", "https://serii.com")
+                    }
                 },
+
                 new TestUser
                 {
                     SubjectId = "2",
@@ -73,8 +80,8 @@ namespace vega.OAuth.Configuration
                     Password = "password2",
                     Claims = new []
                     {
-                        new Claim("name", "Serii"),
-                        new Claim("website", "https://serii.com")
+                        new Claim("name", "Serii2"),
+                        new Claim("website", "https://serii_2.com")
                     }
 
                 },
