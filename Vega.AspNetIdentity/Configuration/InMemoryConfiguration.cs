@@ -43,9 +43,9 @@ namespace vega.AspNetIdentity.Configuration
             {
                 ClientId = "vega_mvc",
                 ClientName = "MVC Client",
-                AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+                AllowedGrantTypes = GrantTypes.Hybrid,
 
-                RequireConsent = false,
+                RequireConsent = true,
 
                 ClientSecrets =
                 {
@@ -74,7 +74,7 @@ namespace vega.AspNetIdentity.Configuration
                 {
                     SubjectId = "1",
                     Username = "mail@serii.md",
-                    Password = "password",
+                    Password = "passwordP1#",
 
                     Claims = new []
                     {

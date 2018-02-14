@@ -57,8 +57,13 @@ namespace vega.API
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "vega_mvc";
-                    options.ResponseType = "id_token token profile";
+                    options.ResponseType = "code id_token";
                     options.SaveTokens = true;
+
+                    options.GetClaimsFromUserInfoEndpoint = true;
+
+                    options.Scope.Add("vega");
+                    options.Scope.Add("offline_access");
                 });
 
 

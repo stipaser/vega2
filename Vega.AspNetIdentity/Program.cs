@@ -14,6 +14,7 @@ namespace Vega.AspNetIdentity
     {
         public static void Main(string[] args)
         {
+            Console.Title = "IdentityServerWithAspNetIdentity";
             BuildWebHost(args).Run();
         }
 
