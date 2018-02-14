@@ -57,7 +57,7 @@ namespace vega.API
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "vega_mvc";
-                    options.ResponseType = "id_token token profile";
+                    options.ResponseType = "id_token token";
                     options.SaveTokens = true;
                 });
 
